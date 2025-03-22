@@ -7,6 +7,7 @@ import Header from './components/common/Header';
 import Home from './pages/Home';
 import EnterWallet from './pages/EnterWallet';
 import Dashboard from './pages/Dashboard';
+import CreateWallet from './pages/CreateWallet';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/enter-wallet" element={<EnterWallet />} />
               <Route path="/dashboard" element={<Dashboard />} />
-            
+              <Route path="/create-wallet" element={<CreateWallet />} />
             </Routes>
           </div>
         </Router>

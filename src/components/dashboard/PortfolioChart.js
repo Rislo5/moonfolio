@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { Line } from 'react-chartjs-2';
 import { fetchHistoricalData } from '../../services/api';
-import { getColorByIndex } from '../../utils/chartUtils';
 
 const ChartContainer = styled.div`
   background-color: var(--bg-secondary);
